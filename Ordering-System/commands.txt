@@ -1,0 +1,16 @@
+influx db api token
+
+7Y20YLFYB_BNaX4FXfsMA7CSauB-GeMGQmHrOpngPfnHOc7RR2Q1AJln3jXcv5lSy3s1fgZMtUzaoR7kPjSBhQ==
+
+http://3.110.81.255:8086/metrics - scrapper
+
+
+.\influx config create --config-name onboarding `
+  --host-url "http://3.110.81.255:8086" `
+  --org "7a79d46f9f72407e" `
+  --token "1VRIJJCxSiSuxaFnPzcWgTrsulm_EEWbORmFWk58Hbg5SaZoTB9D_Mpm980d7j309uf-jlDnnyuSOYKQcfNNDA==" `
+  --active
+  
+  
+  
+  a3e288da78a2c40a59d709f72000b21b-1574238033.eu-west-2.elb.amazonaws.com
